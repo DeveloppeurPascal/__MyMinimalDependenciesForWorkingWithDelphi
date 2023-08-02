@@ -13,3 +13,6 @@
 [submodule "Delphi-DBExtend-Library"]
 	path = Delphi-DBExtend-Library
 	url = https://github.com/DeveloppeurPascal/Delphi-DBExtend-Library.git
+[submodule "Delphi-FMXExtend-Library"]
+	path = Delphi-FMXExtend-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-FMXExtend-Library.git
