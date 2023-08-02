@@ -16,3 +16,6 @@
 [submodule "Delphi-FMXExtend-Library"]
 	path = Delphi-FMXExtend-Library
 	url = https://github.com/DeveloppeurPascal/Delphi-FMXExtend-Library.git
+[submodule "Delphi-Game-Engine"]
+	path = Delphi-Game-Engine
+	url = https://github.com/DeveloppeurPascal/Delphi-Game-Engine.git
