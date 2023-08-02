@@ -1,35 +1,46 @@
-# Delphi-Projects-Template
+# Minimal dependencies install for working with Delphi on my projects
 
 [Cette page en français.](LISEZMOI.md)
 
-A git template for my Delphi (or others) projects.
+This project enables me to repatriate, in a single operation, the components and libraries I use regularly and need on any new Windows development machine (virtual or otherwise) to work with Delphi or RAD Studio.
 
-This template is distributed under MIT license. The AGPL license is for projects I create from this code repository template. Use the license you want if you use the template.
+All that's left to do then is install the necessary components, libraries and extensions in the IDE, and modify any default search paths for units that don't need to be hard-linked in projects (although I prefer tree links local to each project, and install components separately to limit configuration changes depending on which versions of Delphi are installed on the same computer).
+
+You can use this basic project for your own installations by making a fork or copy and then customizing it to suit your needs or simply taking inspiration from how it works.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
+Please note that I mainly work with the latest version of Delphi, C++Builder or RAD Studio. Depending on your version, some of the submodules included here may not be compatible, or I may remove some that you would need in your version. Check the [releases](https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi/releases) section of the code repository to go back to an earlier version if necessary.
+
+If you work on websites you can also use my [other minimal install repository for web projects in PHP](https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithPHP).
+
 ## Install
 
-To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi).
 
-**Warning :** if the project has submodules dependencies they wont be in the ZIP file. You'll have to download them manually.
+This project uses submodules. If you downloaded a ZIP or didn't installed it recursively, you should use this commands on its folder :
 
-## Dependencies
+```bash
+git submodule init
+```
 
-This project depends on :
+After initializing the modules or if you want to update a current install, use this command :
 
-* project 1
-* project 2
+```bash
+git submodule update --remote
+```
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+This code repository is not intended to be updated by third parties, but I remain open to suggestions if you have contributions to share.
+
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi) and [open a new issue](https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
 You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## Dual licensing model (only for my projects, not for this code repository template)
+## Dual licensing model
 
 This project is distributed under [AGPL 3.0 or later](https://choosealicense.com/licenses/agpl-3.0/) license.
 
