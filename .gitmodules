@@ -19,3 +19,6 @@
 [submodule "Delphi-Game-Engine"]
 	path = Delphi-Game-Engine
 	url = https://github.com/DeveloppeurPascal/Delphi-Game-Engine.git
+[submodule "Delphi-NoCode-Library"]
+	path = Delphi-NoCode-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-NoCode-Library.git
