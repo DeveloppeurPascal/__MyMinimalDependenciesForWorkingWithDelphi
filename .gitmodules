@@ -31,3 +31,6 @@
 [submodule "Socket-Messaging-Library"]
 	path = Socket-Messaging-Library
 	url = https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
+[submodule "librairies"]
+	path = librairies
+	url = https://github.com/DeveloppeurPascal/librairies.git
