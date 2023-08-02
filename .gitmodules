@@ -34,3 +34,6 @@
 [submodule "librairies"]
 	path = librairies
 	url = https://github.com/DeveloppeurPascal/librairies.git
+[submodule "one-shot-tools"]
+	path = one-shot-tools
+	url = https://github.com/DeveloppeurPascal/one-shot-tools.git
