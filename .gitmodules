@@ -7,3 +7,6 @@
 [submodule "AboutDialog-Delphi-Component"]
 	path = AboutDialog-Delphi-Component
 	url = https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
+[submodule "DeepL4Delphi"]
+	path = DeepL4Delphi
+	url = https://github.com/DeveloppeurPascal/DeepL4Delphi.git
