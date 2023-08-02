@@ -25,3 +25,6 @@
 [submodule "Delphi-Translation-Library"]
 	path = Delphi-Translation-Library
 	url = https://github.com/DeveloppeurPascal/Delphi-Translation-Library.git
+[submodule "Delphi-VCLExtend-Library"]
+	path = Delphi-VCLExtend-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-VCLExtend-Library.git
