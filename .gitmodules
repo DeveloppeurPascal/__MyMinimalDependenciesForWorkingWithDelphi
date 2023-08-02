@@ -22,3 +22,6 @@
 [submodule "Delphi-NoCode-Library"]
 	path = Delphi-NoCode-Library
 	url = https://github.com/DeveloppeurPascal/Delphi-NoCode-Library.git
+[submodule "Delphi-Translation-Library"]
+	path = Delphi-Translation-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-Translation-Library.git
