@@ -10,3 +10,6 @@
 [submodule "DeepL4Delphi"]
 	path = DeepL4Delphi
 	url = https://github.com/DeveloppeurPascal/DeepL4Delphi.git
+[submodule "Delphi-DBExtend-Library"]
+	path = Delphi-DBExtend-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-DBExtend-Library.git
