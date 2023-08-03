@@ -40,3 +40,6 @@
 [submodule "AutoGetIt"]
 	path = AutoGetIt
 	url = https://github.com/corneliusdavid/AutoGetIt.git
+[submodule "DOSCommand"]
+	path = DOSCommand
+	url = https://github.com/TurboPack/DOSCommand.git
