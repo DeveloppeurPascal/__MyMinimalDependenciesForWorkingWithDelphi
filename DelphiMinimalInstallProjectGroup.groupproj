@@ -30,6 +30,9 @@
         <Projects Include="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDD.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="AutoGetIt\AutoGetItVCL.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <Target Name="Olf_FMX_AboutBoxPackage">
         <MSBuild Projects="AboutDialog-Delphi-Component\packages\11_1-Alexandria\Olf.FMX.AboutBoxPackage.dproj"/>
@@ -112,14 +115,23 @@
     <Target Name="DOSCommandDD:Make">
         <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDD.dproj" Targets="Make"/>
     </Target>
+    <Target Name="AutoGetItVCL">
+        <MSBuild Projects="AutoGetIt\AutoGetItVCL.dproj"/>
+    </Target>
+    <Target Name="AutoGetItVCL:Clean">
+        <MSBuild Projects="AutoGetIt\AutoGetItVCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AutoGetItVCL:Make">
+        <MSBuild Projects="AutoGetIt\AutoGetItVCL.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage;Olf_VCL_AboutBoxPackage;Olf_FMX_Extend;DzHTMLText_FMX;DzHTMLText_VCL;generation_de_mots_de_passe;GenPassword;DOSCommandDR;DOSCommandDD"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage;Olf_VCL_AboutBoxPackage;Olf_FMX_Extend;DzHTMLText_FMX;DzHTMLText_VCL;generation_de_mots_de_passe;GenPassword;DOSCommandDR;DOSCommandDD;AutoGetItVCL"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Clean;Olf_VCL_AboutBoxPackage:Clean;Olf_FMX_Extend:Clean;DzHTMLText_FMX:Clean;DzHTMLText_VCL:Clean;generation_de_mots_de_passe:Clean;GenPassword:Clean;DOSCommandDR:Clean;DOSCommandDD:Clean"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Clean;Olf_VCL_AboutBoxPackage:Clean;Olf_FMX_Extend:Clean;DzHTMLText_FMX:Clean;DzHTMLText_VCL:Clean;generation_de_mots_de_passe:Clean;GenPassword:Clean;DOSCommandDR:Clean;DOSCommandDD:Clean;AutoGetItVCL:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Make;Olf_VCL_AboutBoxPackage:Make;Olf_FMX_Extend:Make;DzHTMLText_FMX:Make;DzHTMLText_VCL:Make;generation_de_mots_de_passe:Make;GenPassword:Make;DOSCommandDR:Make;DOSCommandDD:Make"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Make;Olf_VCL_AboutBoxPackage:Make;Olf_FMX_Extend:Make;DzHTMLText_FMX:Make;DzHTMLText_VCL:Make;generation_de_mots_de_passe:Make;GenPassword:Make;DOSCommandDR:Make;DOSCommandDD:Make;AutoGetItVCL:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
