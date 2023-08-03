@@ -33,6 +33,9 @@
         <Projects Include="AutoGetIt\AutoGetItVCL.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Socket-Messaging-Library\src-generator\SocketMessagesGenerator.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <Target Name="Olf_FMX_AboutBoxPackage">
         <MSBuild Projects="AboutDialog-Delphi-Component\packages\11_1-Alexandria\Olf.FMX.AboutBoxPackage.dproj"/>
@@ -124,14 +127,23 @@
     <Target Name="AutoGetItVCL:Make">
         <MSBuild Projects="AutoGetIt\AutoGetItVCL.dproj" Targets="Make"/>
     </Target>
+    <Target Name="SocketMessagesGenerator">
+        <MSBuild Projects="Socket-Messaging-Library\src-generator\SocketMessagesGenerator.dproj"/>
+    </Target>
+    <Target Name="SocketMessagesGenerator:Clean">
+        <MSBuild Projects="Socket-Messaging-Library\src-generator\SocketMessagesGenerator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SocketMessagesGenerator:Make">
+        <MSBuild Projects="Socket-Messaging-Library\src-generator\SocketMessagesGenerator.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage;Olf_VCL_AboutBoxPackage;Olf_FMX_Extend;DzHTMLText_FMX;DzHTMLText_VCL;generation_de_mots_de_passe;GenPassword;DOSCommandDR;DOSCommandDD;AutoGetItVCL"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage;Olf_VCL_AboutBoxPackage;Olf_FMX_Extend;DzHTMLText_FMX;DzHTMLText_VCL;generation_de_mots_de_passe;GenPassword;DOSCommandDR;DOSCommandDD;AutoGetItVCL;SocketMessagesGenerator"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Clean;Olf_VCL_AboutBoxPackage:Clean;Olf_FMX_Extend:Clean;DzHTMLText_FMX:Clean;DzHTMLText_VCL:Clean;generation_de_mots_de_passe:Clean;GenPassword:Clean;DOSCommandDR:Clean;DOSCommandDD:Clean;AutoGetItVCL:Clean"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Clean;Olf_VCL_AboutBoxPackage:Clean;Olf_FMX_Extend:Clean;DzHTMLText_FMX:Clean;DzHTMLText_VCL:Clean;generation_de_mots_de_passe:Clean;GenPassword:Clean;DOSCommandDR:Clean;DOSCommandDD:Clean;AutoGetItVCL:Clean;SocketMessagesGenerator:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Make;Olf_VCL_AboutBoxPackage:Make;Olf_FMX_Extend:Make;DzHTMLText_FMX:Make;DzHTMLText_VCL:Make;generation_de_mots_de_passe:Make;GenPassword:Make;DOSCommandDR:Make;DOSCommandDD:Make;AutoGetItVCL:Make"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Make;Olf_VCL_AboutBoxPackage:Make;Olf_FMX_Extend:Make;DzHTMLText_FMX:Make;DzHTMLText_VCL:Make;generation_de_mots_de_passe:Make;GenPassword:Make;DOSCommandDR:Make;DOSCommandDD:Make;AutoGetItVCL:Make;SocketMessagesGenerator:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
