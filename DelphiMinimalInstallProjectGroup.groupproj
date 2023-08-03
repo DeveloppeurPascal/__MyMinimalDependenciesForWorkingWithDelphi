@@ -24,6 +24,12 @@
         <Projects Include="one-shot-tools\genpassword\src\GenPassword.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDR.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDD.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <Target Name="Olf_FMX_AboutBoxPackage">
         <MSBuild Projects="AboutDialog-Delphi-Component\packages\11_1-Alexandria\Olf.FMX.AboutBoxPackage.dproj"/>
@@ -88,14 +94,32 @@
     <Target Name="GenPassword:Make">
         <MSBuild Projects="one-shot-tools\genpassword\src\GenPassword.dproj" Targets="Make"/>
     </Target>
+    <Target Name="DOSCommandDR">
+        <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDR.dproj"/>
+    </Target>
+    <Target Name="DOSCommandDR:Clean">
+        <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDR.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DOSCommandDR:Make">
+        <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDR.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DOSCommandDD">
+        <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDD.dproj"/>
+    </Target>
+    <Target Name="DOSCommandDD:Clean">
+        <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDD.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DOSCommandDD:Make">
+        <MSBuild Projects="DOSCommand\Packages\Alexandria\Delphi\DOSCommandDD.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage;Olf_VCL_AboutBoxPackage;Olf_FMX_Extend;DzHTMLText_FMX;DzHTMLText_VCL;generation_de_mots_de_passe;GenPassword"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage;Olf_VCL_AboutBoxPackage;Olf_FMX_Extend;DzHTMLText_FMX;DzHTMLText_VCL;generation_de_mots_de_passe;GenPassword;DOSCommandDR;DOSCommandDD"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Clean;Olf_VCL_AboutBoxPackage:Clean;Olf_FMX_Extend:Clean;DzHTMLText_FMX:Clean;DzHTMLText_VCL:Clean;generation_de_mots_de_passe:Clean;GenPassword:Clean"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Clean;Olf_VCL_AboutBoxPackage:Clean;Olf_FMX_Extend:Clean;DzHTMLText_FMX:Clean;DzHTMLText_VCL:Clean;generation_de_mots_de_passe:Clean;GenPassword:Clean;DOSCommandDR:Clean;DOSCommandDD:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Make;Olf_VCL_AboutBoxPackage:Make;Olf_FMX_Extend:Make;DzHTMLText_FMX:Make;DzHTMLText_VCL:Make;generation_de_mots_de_passe:Make;GenPassword:Make"/>
+        <CallTarget Targets="Olf_FMX_AboutBoxPackage:Make;Olf_VCL_AboutBoxPackage:Make;Olf_FMX_Extend:Make;DzHTMLText_FMX:Make;DzHTMLText_VCL:Make;generation_de_mots_de_passe:Make;GenPassword:Make;DOSCommandDR:Make;DOSCommandDD:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
