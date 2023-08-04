@@ -37,6 +37,13 @@
             <Dependencies/>
         </Projects>
     </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
     <Target Name="Olf_FMX_AboutBoxPackage">
         <MSBuild Projects="AboutDialog-Delphi-Component\packages\11_1-Alexandria\Olf.FMX.AboutBoxPackage.dproj"/>
     </Target>
