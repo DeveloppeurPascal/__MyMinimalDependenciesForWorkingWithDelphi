@@ -43,3 +43,6 @@
 [submodule "DOSCommand"]
 	path = DOSCommand
 	url = https://github.com/TurboPack/DOSCommand.git
+[submodule "Socket-Messaging-Code-Generator"]
+	path = Socket-Messaging-Code-Generator
+	url = https://github.com/DeveloppeurPascal/Socket-Messaging-Code-Generator.git
