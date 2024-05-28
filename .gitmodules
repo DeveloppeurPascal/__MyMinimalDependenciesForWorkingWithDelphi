@@ -28,9 +28,6 @@
 [submodule "one-shot-tools"]
 	path = one-shot-tools
 	url = https://github.com/DeveloppeurPascal/one-shot-tools.git
-[submodule "AutoGetIt"]
-	path = AutoGetIt
-	url = https://github.com/corneliusdavid/AutoGetIt.git
 [submodule "DOSCommand"]
 	path = DOSCommand
 	url = https://github.com/TurboPack/DOSCommand.git
