@@ -1,9 +1,6 @@
 [submodule "DzHTMLText"]
 	path = DzHTMLText
 	url = https://github.com/digao-dalpiaz/DzHTMLText.git
-[submodule "Delphi-VCLExtend-Library"]
-	path = Delphi-VCLExtend-Library
-	url = https://github.com/DeveloppeurPascal/Delphi-VCLExtend-Library.git
 [submodule "Socket-Messaging-Library"]
 	path = Socket-Messaging-Library
 	url = https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
