@@ -1,9 +1,6 @@
 [submodule "DzHTMLText"]
 	path = DzHTMLText
 	url = https://github.com/digao-dalpiaz/DzHTMLText.git
-[submodule "skia4delphi"]
-	path = skia4delphi
-	url = https://github.com/skia4delphi/skia4delphi.git
 [submodule "AboutDialog-Delphi-Component"]
 	path = AboutDialog-Delphi-Component
 	url = https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
