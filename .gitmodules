@@ -1,6 +1,3 @@
 [submodule "Socket-Messaging-Library"]
 	path = Socket-Messaging-Library
 	url = https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
-[submodule "Socket-Messaging-Code-Generator"]
-	path = Socket-Messaging-Code-Generator
-	url = https://github.com/DeveloppeurPascal/Socket-Messaging-Code-Generator.git
