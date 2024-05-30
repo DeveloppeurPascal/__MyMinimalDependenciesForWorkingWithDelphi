@@ -37,7 +37,7 @@ cd ..
 	
 mkdir ___packs-projets
 cd ___packs-projets
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi.git
+git clone https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi.git
 cd __MyMinimalDependenciesForWorkingWithDelphi
 git submodule init
 git submodule update --remote
@@ -52,7 +52,7 @@ cd DevPas-Components-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/DevPas-Games-Pack.git
+git clone https://github.com/DeveloppeurPascal/DevPas-Games-Pack.git
 cd DevPas-Games-Pack
 git submodule init
 git submodule update --remote
@@ -69,4 +69,17 @@ mkdir ___programs
 cd ___programs
 git clone --recurse-submodules https://github.com/corneliusdavid/AutoGetIt.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/one-shot-tools.git
+cd ..
+
+mkdir ___samples
+cd ___samples
+git clone https://github.com/DeveloppeurPascal/PV-Formations-Delphi.git
+cd PV-Formations-Delphi
+git submodule init
+git submodule update --remote
+cd ..
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-samples.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/QP_samples.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
 cd ..
