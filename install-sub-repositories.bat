@@ -57,6 +57,11 @@ cd DevPas-Games-Pack
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://github.com/DeveloppeurPascal/DevPas-WorkingPrograms-Pack.git
+cd DevPas-WorkingPrograms-Pack
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
 
 mkdir ___composants-tiers
