@@ -25,6 +25,7 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Trans
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-VCLExtend-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/DelphiBooks4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/FastSpring4Delphi.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/FSoDB4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Gumroad4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LemonSqueezy4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LibreTranslate4Delphi.git
