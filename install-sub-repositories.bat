@@ -31,7 +31,7 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/LibreTransla
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LogNPass4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Table-Data-Sync-library.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/TableDataSync4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/ZoneAbo4Delphi.git
 cd ..
 	
