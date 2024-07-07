@@ -88,4 +88,5 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-sampl
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/QP_samples.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
 cd ..
