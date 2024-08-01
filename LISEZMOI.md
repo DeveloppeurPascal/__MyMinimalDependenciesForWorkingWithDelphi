@@ -1,6 +1,6 @@
 # Installation des dépendances minimales pour travailler avec Delphi sur mes projets
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
 Ce projet permet de rapatrier en une seule fois les composants et librairies que j'utilise régulièrement et dont j'ai besoin sur toute nouvelle machine (virtuelle ou pas) de développement sous Windows pour travailler avec Delphi ou RAD Studio.
 
@@ -42,7 +42,7 @@ Vous pouvez aussi cloner ce dépôt de code et participer à ses évolutions en 
 
 ## Modèle de licence double
 
-Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure] (https://choosealicense.com/licenses/agpl-3.0/).
+Ce projet est distribué sous licence [AGPL 3.0 ou ultérieure](https://choosealicense.com/licenses/agpl-3.0/).
 
 Si vous voulez l'utiliser en totalité ou en partie dans vos projets mais ne voulez pas en partager les sources ou ne voulez pas distribuer votre projet sous la même licence, vous pouvez acheter le droit de l'utiliser sous la licence [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) ou une licence dédiée ([contactez l'auteur](https://developpeur-pascal.fr/nous-contacter.php) pour discuter de vos besoins).
 
