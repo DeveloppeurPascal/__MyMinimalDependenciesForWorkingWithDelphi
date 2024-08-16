@@ -91,3 +91,10 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
 cd ..
+
+mkdir ___templates
+cd ___templates
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Projects-Template.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/GitHubPages-Learning-Resources-Template.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Formations-Template.git
+cd ..
