@@ -106,4 +106,9 @@ cd Gamolf-FMX-Game-Starter-Kit
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://github.com/DeveloppeurPascal/FMX-Tools-Starter-Kit.git
+cd FMX-Tools-Starter-Kit
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
