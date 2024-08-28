@@ -64,6 +64,11 @@ cd DevPas-WorkingPrograms-Pack
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://github.com/DeveloppeurPascal/DevPas-TemplatesAndStarterKits-Pack.git
+cd DevPas-TemplatesAndStarterKits-Pack
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
 
 mkdir ___composants-tiers
