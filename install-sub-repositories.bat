@@ -26,7 +26,6 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-VCLEx
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/DelphiBooks4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/FastSpring4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/FSoDB4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Gumroad4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LemonSqueezy4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LibreTranslate4Delphi.git
@@ -102,4 +101,9 @@ cd ___templates
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Projects-Template.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/GitHubPages-Learning-Resources-Template.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Formations-Template.git
+git clone https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
+cd Gamolf-FMX-Game-Starter-Kit
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
