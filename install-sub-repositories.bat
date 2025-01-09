@@ -12,7 +12,6 @@ REM cd %USERPROFILE%\Documents\Embarcadero\Studio\Projets
 
 mkdir ___librairies-et-composants
 cd ___librairies-et-composants
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/1TPE4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/AndroidTV-Delphi-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/DeepL4Delphi.git
@@ -24,16 +23,13 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-SkiaE
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Translation-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-VCLExtend-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/DelphiBooks4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/FastSpring4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/FSoDB4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Gumroad4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LemonSqueezy4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LibreTranslate4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LogNPass4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/TableDataSync4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/ZoneAbo4Delphi.git
 cd ..
 	
 mkdir ___packs-projets
@@ -48,23 +44,18 @@ cd _AllProjects
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/DevPas-Components-Pack.git
-cd DevPas-Components-Pack
+git clone https://github.com/DeveloppeurPascal/Delphi-ProgramsAndTools-Pack.git
+cd Delphi-ProgramsAndTools-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/DevPas-Games-Pack.git
-cd DevPas-Games-Pack
+git clone https://github.com/DeveloppeurPascal/Delphi-Games-Pack.git
+cd Delphi-Games-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/DevPas-WorkingPrograms-Pack.git
-cd DevPas-WorkingPrograms-Pack
-git submodule init
-git submodule update --remote
-cd ..
-git clone https://github.com/DeveloppeurPascal/DevPas-TemplatesAndStarterKits-Pack.git
-cd DevPas-TemplatesAndStarterKits-Pack
+git clone https://github.com/DeveloppeurPascal/Delphi-ComponentsAndLibraries-Pack.git
+cd Delphi-ComponentsAndLibraries-Pack
 git submodule init
 git submodule update --remote
 cd ..
