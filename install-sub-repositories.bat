@@ -10,8 +10,8 @@ REM mais dans le doute mieux vaut mettre ce programme dans le bon dossier à la 
 REM l'y exécuter directement.
 REM cd %USERPROFILE%\Documents\Embarcadero\Studio\Projets
 
-mkdir ___librairies-et-composants
-cd ___librairies-et-composants
+mkdir ___lib
+cd ___lib
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/AndroidTV-Delphi-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/DeepL4Delphi.git
@@ -32,8 +32,8 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/Socket-Messa
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/TableDataSync4Delphi.git
 cd ..
 	
-mkdir ___packs-projets
-cd ___packs-projets
+mkdir ___packs
+cd ___packs
 git clone https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi.git
 cd __MyMinimalDependenciesForWorkingWithDelphi
 git submodule init
@@ -61,8 +61,8 @@ git submodule update --remote
 cd ..
 cd ..
 
-mkdir ___composants-tiers
-cd ___composants-tiers
+mkdir ___lib-tiers
+cd ___lib-tiers
 git clone --recurse-submodules https://github.com/TurboPack/DOSCommand.git
 git clone --recurse-submodules https://github.com/digao-dalpiaz/DzHTMLText.git
 cd ..
