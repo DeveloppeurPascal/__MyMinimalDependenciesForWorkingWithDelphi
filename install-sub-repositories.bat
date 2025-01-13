@@ -84,7 +84,6 @@ cd ..
 mkdir ___templates
 cd ___templates
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Projects-Template.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/GitHubPages-Learning-Resources-Template.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Formations-Template.git
 git clone https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
 cd Gamolf-FMX-Game-Starter-Kit
