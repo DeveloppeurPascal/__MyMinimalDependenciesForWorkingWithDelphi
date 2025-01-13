@@ -75,13 +75,7 @@ cd ..
 
 mkdir ___samples
 cd ___samples
-git clone https://github.com/DeveloppeurPascal/PV-Formations-Delphi.git
-cd PV-Formations-Delphi
-git submodule init
-git submodule update --remote
-cd ..
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-samples.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/QP_samples.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
