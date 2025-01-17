@@ -14,6 +14,7 @@ mkdir ___lib
 cd ___lib
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/AndroidTV-Delphi-Library.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/CilTseg4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/DeepL4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-DBExtend-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-FMXExtend-Library.git
