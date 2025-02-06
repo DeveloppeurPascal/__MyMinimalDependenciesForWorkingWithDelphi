@@ -60,6 +60,11 @@ cd Delphi-ComponentsAndLibraries-Pack
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://github.com/DeveloppeurPascal/DevPas-TemplatesAndStarterKits-Pack.git
+cd Delphi-ComponentsAndLibraries-Pack
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
 
 mkdir ___lib-tiers
