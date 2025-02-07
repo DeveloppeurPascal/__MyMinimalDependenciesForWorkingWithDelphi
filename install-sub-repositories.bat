@@ -31,6 +31,10 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies.g
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/LogNPass4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/TableDataSync4Delphi.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/OBSWebSocket4Delphi.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies-TurboPascal.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestPic4Delphi.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestDL4Delphi.git
 cd ..
 	
 mkdir ___packs
