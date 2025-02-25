@@ -18,4 +18,5 @@ git submodule init
 git submodule update --remote
 cd ..
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/QP_samples.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/PV-TestsDivers.git
 cd ..
