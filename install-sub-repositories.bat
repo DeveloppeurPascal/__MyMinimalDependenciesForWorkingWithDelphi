@@ -76,6 +76,7 @@ mkdir ___lib-tiers
 cd ___lib-tiers
 git clone --recurse-submodules https://github.com/TurboPack/DOSCommand.git
 git clone --recurse-submodules https://github.com/digao-dalpiaz/DzHTMLText.git
+git clone --recurse-submodules https://github.com/gbegreg/GBE3D.git
 cd ..
 
 mkdir ___programs
