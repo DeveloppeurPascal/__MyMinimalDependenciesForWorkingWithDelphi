@@ -35,6 +35,7 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/OBSWebSocket
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies-TurboPascal.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestPic4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestDL4Delphi.git
+git clone --recurse-submodules https://github.com/DeveloppeurPascal/FMX-Styles-Utils.git
 cd ..
 	
 mkdir ___packs
