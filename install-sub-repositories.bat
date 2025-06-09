@@ -70,6 +70,11 @@ cd Delphi-ComponentsAndLibraries-Pack
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://github.com/DeveloppeurPascal/Mobile-Apps-in-Delphi-Pack.git
+cd Mobile-Apps-in-Delphi-Pack
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
 
 mkdir ___lib-tiers
