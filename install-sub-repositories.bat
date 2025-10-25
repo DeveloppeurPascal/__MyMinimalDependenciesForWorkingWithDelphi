@@ -95,7 +95,7 @@ cd ___samples
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-samples.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
+git clone --recurse-submodules https://codeberg.org/PatrickPremartin/Delphi-FMX-Game-Snippets.git
 cd ..
 
 mkdir ___templates
