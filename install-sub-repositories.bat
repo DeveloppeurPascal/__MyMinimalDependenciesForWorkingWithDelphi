@@ -75,6 +75,11 @@ cd Mobile-Apps-in-Delphi-Pack
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://codeberg.org/DeveloppeurPascal/Game-Template-For-Delphi-FireMonkey.git
+cd Game-Template-For-Delphi-FireMonkey
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
 
 mkdir ___lib-tiers
