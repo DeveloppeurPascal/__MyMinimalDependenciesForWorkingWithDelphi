@@ -75,11 +75,6 @@ cd Mobile-Apps-in-Delphi-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://codeberg.org/DeveloppeurPascal/Game-Template-For-Delphi-FireMonkey.git
-cd Game-Template-For-Delphi-FireMonkey
-git submodule init
-git submodule update --remote
-cd ..
 cd ..
 
 mkdir ___lib-tiers
@@ -120,6 +115,11 @@ git submodule update --remote
 cd ..
 git clone https://github.com/DeveloppeurPascal/VCL-Tools-Starter-Kit.git
 cd VCL-Tools-Starter-Kit
+git submodule init
+git submodule update --remote
+cd ..
+git clone https://codeberg.org/DeveloppeurPascal/Game-Template-For-Delphi-FireMonkey.git
+cd Game-Template-For-Delphi-FireMonkey
 git submodule init
 git submodule update --remote
 cd ..
