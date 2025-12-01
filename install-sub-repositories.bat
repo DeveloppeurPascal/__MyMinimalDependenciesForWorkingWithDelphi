@@ -123,4 +123,9 @@ cd Game-Template-For-Delphi-FireMonkey
 git submodule init
 git submodule update --remote
 cd ..
+git clone https://codeberg.org/DeveloppeurPascal/Tools-Template-for-Delphi-FireMonkey.git
+cd Tools-Template-for-Delphi-FireMonkey
+git submodule init
+git submodule update --remote
+cd ..
 cd ..
