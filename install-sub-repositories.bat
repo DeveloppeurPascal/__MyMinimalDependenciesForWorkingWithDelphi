@@ -92,16 +92,16 @@ cd ..
 
 mkdir ___samples
 cd ___samples
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-samples.git
+git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-samples.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
-git clone --recurse-submodules https://codeberg.org/PatrickPremartin/Delphi-FMX-Game-Snippets.git
+git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
 cd ..
 
 mkdir ___templates
 cd ___templates
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Projects-Template.git Delphi-Projects-Template-On-GitHub
-git clone --recurse-submodules https://codeberg.org/PatrickPremartin/Delphi-Projects-Template.git Delphi-Projects-Template-On-Codeberg
+git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-Projects-Template.git Delphi-Projects-Template-On-Codeberg
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Formations-Template.git
 git clone https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
 cd Gamolf-FMX-Game-Starter-Kit
