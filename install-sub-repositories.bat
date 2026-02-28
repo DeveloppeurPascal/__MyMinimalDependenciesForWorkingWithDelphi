@@ -36,6 +36,7 @@ git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies-T
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestPic4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestDL4Delphi.git
 git clone --recurse-submodules https://github.com/DeveloppeurPascal/FMX-Styles-Utils.git
+git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-NetExtend-Library.git
 cd ..
 	
 mkdir ___packs
