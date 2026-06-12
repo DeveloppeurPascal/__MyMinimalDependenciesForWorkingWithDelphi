@@ -14,66 +14,66 @@ REM Ce projet utilise un accès SSL aux hébergements pour récupérer les dép�
 
 mkdir ___lib
 cd ___lib
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/AndroidTV-Delphi-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/CilTseg4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/DeepL4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-DBExtend-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-FMXExtend-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Game-Engine.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-NoCode-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-SkiaExtend-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Translation-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-VCLExtend-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/DelphiBooks4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/FSoDB4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/LemonSqueezy4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/LibreTranslate4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/LogNPass4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/TableDataSync4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/OBSWebSocket4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/librairies-TurboPascal.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestPic4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/GestDL4Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/FMX-Styles-Utils.git
-git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-NetExtend-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/AboutDialog-Delphi-Component.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/AndroidTV-Delphi-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/CilTseg4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/DeepL4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-DBExtend-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-FMXExtend-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-Game-Engine.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-NoCode-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-SkiaExtend-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-Translation-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-VCLExtend-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/DelphiBooks4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/FSoDB4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/LemonSqueezy4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/LibreTranslate4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/librairies.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/LogNPass4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Socket-Messaging-Library.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/TableDataSync4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/OBSWebSocket4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/librairies-TurboPascal.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/GestPic4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/GestDL4Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/FMX-Styles-Utils.git
+git clone --recurse-submodules ssh://git@codeberg.org/DeveloppeurPascal/Delphi-NetExtend-Library.git
 cd ..
 
 mkdir ___packs
 cd ___packs
-git clone https://github.com/DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi.git
+git clone git@github.com:DeveloppeurPascal/__MyMinimalDependenciesForWorkingWithDelphi.git
 cd __MyMinimalDependenciesForWorkingWithDelphi
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/_AllProjects.git
+git clone git@github.com:DeveloppeurPascal/_AllProjects.git
 cd _AllProjects
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/Delphi-ProgramsAndTools-Pack.git
+git clone git@github.com:DeveloppeurPascal/Delphi-ProgramsAndTools-Pack.git
 cd Delphi-ProgramsAndTools-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/Delphi-Games-Pack.git
+git clone git@github.com:DeveloppeurPascal/Delphi-Games-Pack.git
 cd Delphi-Games-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/Delphi-ComponentsAndLibraries-Pack.git
+git clone git@github.com:DeveloppeurPascal/Delphi-ComponentsAndLibraries-Pack.git
 cd Delphi-ComponentsAndLibraries-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/DevPas-TemplatesAndStarterKits-Pack.git
+git clone git@github.com:DeveloppeurPascal/DevPas-TemplatesAndStarterKits-Pack.git
 cd Delphi-ComponentsAndLibraries-Pack
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/Mobile-Apps-in-Delphi-Pack.git
+git clone git@github.com:DeveloppeurPascal/Mobile-Apps-in-Delphi-Pack.git
 cd Mobile-Apps-in-Delphi-Pack
 git submodule init
 git submodule update --remote
@@ -90,50 +90,50 @@ cd ..
 mkdir ___programs
 cd ___programs
 git clone --recurse-submodules https://github.com/corneliusdavid/AutoGetIt.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/one-shot-tools.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/one-shot-tools.git
 cd ..
 
 mkdir ___samples
 cd ___samples
-git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-samples.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/exemples.git
-git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
-git clone https://github.com/DeveloppeurPascal/PV-Formations-Delphi.git
+git clone --recurse-submodules ssh://git@codeberg.org/DeveloppeurPascal/Delphi-samples.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Apprendre-la-programmation-avec-Delphi.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/exemples.git
+git clone --recurse-submodules ssh://git@codeberg.org/DeveloppeurPascal/Delphi-FMX-Game-Snippets.git
+git clone git@github.com:DeveloppeurPascal/PV-Formations-Delphi.git
 cd PV-Formations-Delphi
 git submodule init
 git submodule update --remote
 cd ..
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/QP_samples.git
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/PV-TestsDivers.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/QP_samples.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/PV-TestsDivers.git
 cd ..
 
 mkdir ___templates
 cd ___templates
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Projects-Template.git Delphi-Projects-Template-On-GitHub
-git clone --recurse-submodules https://codeberg.org/DeveloppeurPascal/Delphi-Projects-Template.git Delphi-Projects-Template-On-Codeberg
-git clone --recurse-submodules https://github.com/DeveloppeurPascal/Delphi-Formations-Template.git
-git clone https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-Projects-Template.git Delphi-Projects-Template-On-GitHub
+git clone --recurse-submodules ssh://git@codeberg.org/DeveloppeurPascal/Delphi-Projects-Template.git Delphi-Projects-Template-On-Codeberg
+git clone --recurse-submodules git@github.com:DeveloppeurPascal/Delphi-Formations-Template.git
+git clone git@github.com:DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
 cd Gamolf-FMX-Game-Starter-Kit
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/FMX-Tools-Starter-Kit.git
+git clone git@github.com:DeveloppeurPascal/FMX-Tools-Starter-Kit.git
 cd FMX-Tools-Starter-Kit
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://github.com/DeveloppeurPascal/VCL-Tools-Starter-Kit.git
+git clone git@github.com:DeveloppeurPascal/VCL-Tools-Starter-Kit.git
 cd VCL-Tools-Starter-Kit
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://codeberg.org/DeveloppeurPascal/Game-Template-For-Delphi-FireMonkey.git
+git clone ssh://git@codeberg.org/DeveloppeurPascal/Game-Template-For-Delphi-FireMonkey.git
 cd Game-Template-For-Delphi-FireMonkey
 git submodule init
 git submodule update --remote
 cd ..
-git clone https://codeberg.org/DeveloppeurPascal/Tools-Template-for-Delphi-FireMonkey.git
+git clone ssh://git@codeberg.org/DeveloppeurPascal/Tools-Template-for-Delphi-FireMonkey.git
 cd Tools-Template-for-Delphi-FireMonkey
 git submodule init
 git submodule update --remote
